@@ -1,0 +1,77 @@
+.triangle {
+    position: relative;
+    background: #fff;
+    height: 5vh;
+  }
+  
+  .triangle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 31px 60px 0 60px;
+    border-color: #fff transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+  }
+
+  .triangleup {
+    position: relative;
+    background: #1d4ed8;
+    height: 1vh;
+  }
+  
+  .triangleup::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 60px 31px 60px;
+    border-color: transparent transparent #fff transparent;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  .maskwatermark {
+    position: relative;
+    background: transparent;
+    height: 4vh;
+  }
+  
+  .maskwatermark::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-style: solid;
+    background: white;
+    height: 50px;
+    transform: translateY(-30px); 
+  }
+
+  .curved {
+    position: relative;
+    background: #f97316;
+    height: 30vh;
+    transform: translateY(-50px);
+  }
+  
+  .curved::after {
+    content: '';
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+  }
+
+  .translateYcustom {
+    transform: translateY(-50px);
+  }

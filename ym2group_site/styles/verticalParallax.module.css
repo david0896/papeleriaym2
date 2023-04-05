@@ -1,0 +1,64 @@
+.root {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container {
+    position: relative;
+    width: 43em;
+}
+
+.ring {
+    position: relative;
+    z-index: 2;
+}
+
+.ring2 {
+    top: 25%;
+    left: 0;
+    padding-left: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .parallaxInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .circleInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hemispheres {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+  }
+
+
+
+
+
+
+
