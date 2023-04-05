@@ -1,13 +1,6 @@
-import { useEffect } from 'react'
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript, Script  } from 'next/document'
 
 export default function Document() {
-
-  useEffect(() => {
-    
-  })
-  
-
   return (
     <Html lang="en">
       <Head>
@@ -19,12 +12,11 @@ export default function Document() {
       <body className="font-monse">
         <Main />
         <NextScript />
-        <script 
+        <script  
           src="https://cdn2.woxo.tech/a.js#640f02e8576ff7d3f71f7e8d" 
           async data-usrc>
         </script>
-        {/* <script src="/node_module/tw-elements/dist/js/index.min.js"></script> */}
-        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+        <Script  src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></Script>
       </body>
     </Html>
   )

@@ -7,9 +7,9 @@ export default function Footer() {
             <footer className=" container mx-auto p-4 sm:p-6 dark:bg-gray-900">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0 w-40">
-                        <a href="/" className="p-2">
+                        <Link href="/" className="p-2">
                             <Image src="/img/ym2white.svg" width={300} height={40} alt='ym2 logo'/>
-                        </a>
+                        </Link>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
