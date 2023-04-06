@@ -7,11 +7,9 @@ import Categoria_index from "@/components/categoria_index";
 import CarrouselInfinitoMarcas from "@/components/carrouselInfinitoMarcas";
 import ProductosEnPromocion from "@/components/productosEnPromocion";
 import dynamic from 'next/dynamic';
+import CarouselNext from "@/components/carrouselNext";
 
 const InstagramEmbedded = dynamic(() => import('@/components/instagramEmbedded'), {
-  ssr: false,
-});
-const CarrouselInicio = dynamic(() => import('@/components/carrousel'), {
   ssr: false,
 });
 
@@ -53,7 +51,7 @@ export default function Home() {
         description={'Venta de articulos de papeleria'}
       >
         {/*carousel*/}
-        <CarrouselInicio/> 
+        <CarouselNext/> 
         {/*section 1 productos en promoción*/}
         <ProductosEnPromocion/> 
         {/*divisor 1*/}

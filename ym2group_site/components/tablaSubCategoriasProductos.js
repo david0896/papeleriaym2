@@ -32,7 +32,7 @@ export default function TablaSubCategoriasProductos({datos}) {
                 <div className="overflow-hidden">
                     <table className="min-w-full text-left text-sm font-light">
                     <thead
-                        className="border-b bg-white font-medium dark:border-neutral-500 dark:bg-neutral-600">
+                        className="border-b bg-white font-medium">
                         <tr>
                         <th scope="col" className="px-6 py-4">#</th>
                         <th scope="col" className="px-6 py-4">Producto</th>
