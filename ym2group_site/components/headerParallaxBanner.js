@@ -17,7 +17,7 @@ const HeaderParallaxBanner = ({titulo}) => {
       expanded: false,
       children: (
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-6xl md:text-8xl font-semibold text-white">
+          <h1 className="text-2xl md:text-6xl lg:text-8xl font-semibold text-white">
             {titulo}
           </h1>
         </div>
