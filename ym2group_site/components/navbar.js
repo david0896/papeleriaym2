@@ -208,7 +208,7 @@ export default function Navbar() {
                     <li>
                         <Link
                             className="px-3 py-2 flex items-center text-base leading-snug text-gray-600 hover:opacity-75 hover:text-orange-500 "
-                            href="/"
+                            href="/productos/descuento"
                         >
                         <span className="ml-2 uppercase">Ofertas</span>
                         </Link>
