@@ -130,6 +130,7 @@ export default function Home() {
             />
             <button type="button" className="border-2 border-blue-700 bg-blue-700 hover:opacity-90 rounded-r-3xl p-1 px-7 text-white">Enviar</button>
             <iframe width="540" height="305" src="https://faed66c7.sibforms.com/serve/MUIEAFzVLVaO_GgcH8YW6vMI2MTJoQSV68dSUnUMk-zKjc-CtglLKtZjIeU9weuTwZNzXV1grleHD_gOMOobKYzocjtHAo1J5jw_OqgytO8oH3-ySmBg_UlQ3_qoXQ6a-_IJfimQcYbNi5LnRbmL44gWE9qDtx39M990D3HzC3Q4etK8ulV6CM9aqbellOQH5qAz91fDBgzZX1cV" frameborder="0" scrolling="auto" allowfullscreen style={{display: 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'max-width': '100%'}}></iframe>
+            <iframe width="540" height="305" src="https://faed66c7.sibforms.com/serve/MUIEAJ7O_n-O39-qO0uPEr-3JBt0mC8q7TUs2wOzyAjBPbgoDy4aQH_VhxngBtzjTELN3RpMaEmz9mh0a65knSWCkcsTn0IniHAjwdV3gNEYUm4c7LTKc2ye1d4t7tLt7HionO9pu3ER3IqzQEAcHWVRZ1u4KXfjCfDL0pjY2cI94SM5BYwtTSFCz9uOZC51OxST85kdmhdnSFzk" frameborder="0" scrolling="auto" allowfullscreen style={{display: 'block','margin-left': 'auto','margin-right': 'auto','max-width': '100%'}}></iframe>
           </div>
         </div>
 
