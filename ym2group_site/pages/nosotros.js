@@ -8,7 +8,7 @@ export default function Nosotros() {
   return (
     <Layout 
         title={'| Nosotros'}
-        description={'Sobre nosotros, venta de articulos de papeleria'}
+        description={'Sobre nosotros, venta de articulos de papelería'}
     >
         {/* <ParallaxBanner
           layers={[
@@ -35,7 +35,7 @@ export default function Nosotros() {
                 Somos tu aliado en el colegio, en la oficina y en tu día a día
               </h2>
               <p className="block text-lg py-3">
-              Bienvenidos a nuestra papelería, ubicada en el corazón de <span className="font-semibold">chacao</span> hace más de 2 años en nuestra tienda fisica y más de 5 años de manera online. Nos enorgullece ser una empresa que ha formado parte de la comunidad local y ha sido parte de los momentos más importantes de nuestros clientes en su vida profesional y cotidiana.
+              Bienvenidos a nuestra papelería, ubicada en el corazón de <strong className="font-semibold">chacao</strong> desde el año 2022 en nuestra tienda fisica y más de 5 años de manera online. Nos enorgullece formar parte de la comunidad local así como de nuestros clientes y aliados que han sido parte de los momentos más importantes de YM2 GROUP C.A.
               </p>
             </div>           
             <div className='md:col-span-2 p-4 lg:p-10 lg:h-600'> 
@@ -64,10 +64,10 @@ export default function Nosotros() {
                 </div>          
                 <div className="md:col-span-2 p-10 pt-0 lg:pt-10 grid content-center">
                   <p className="block text-lg py-3">
-                    Desde suministros de oficina hasta artículos para el colegio. Siempre nos esforzamos por mantenernos actualizados con las últimas tendencias y productos para que puedas encontrar todo lo que necesites en un solo lugar.
+                    Desde suministros de oficina hasta artículos para el colegio. Siempre nos esforzamos por mantenernos actualizados con las últimas tendencias y productos para que puedas encontrar todo lo que necesites en un sólo lugar.
                   </p>
                   <p className="block text-lg py-3">
-                    Además, nuestro equipo de expertos en atención al cliente está a tu disposición para ayudarte en todo momento. Brindamos un servicio personalizado y amigable, para que puedas encontrar rápidamente lo que buscas y asegurarte de que estás satisfecho con tu compra.
+                    Además, nuestro equipo de expertos en atención al cliente está a tu disposición para ayudarte en todo momento. Brindamos un servicio personalizado y amigable, para que puedas encontrar rápidamente lo que buscas.
                   </p>
                 </div>          
               </div>
@@ -79,15 +79,15 @@ export default function Nosotros() {
                   </p>
                 </div>          
                 <div className="md:col-span-1 bg-orange-500/20 rounded-xl p-10">
-                  <h3 className="block text-2xl lg:text-4xl font-bold text-blue-700">+5.000</h3>
+                  <h3 className="block text-2xl lg:text-4xl font-bold text-blue-700">+2.000</h3>
                   <p className="block text-lg py-3">
-                    Contamos con una amplia clientela, es un indicador de que ha desarrollado estrategias efectivas de fidelización y ha logrado ganarse la confianza de sus consumidores.
+                    Contamos con una amplia clientela, la cual nos indica que hemos logrado ganar su confianza, a través del compromiso, responsabilidad y entrega en cada una de nuestras ventas.
                   </p>
                 </div>          
                 <div className="md:col-span-1 bg-blue-700/10 rounded-xl p-10">
                   <h3 className="block text-2xl lg:text-4xl font-bold text-blue-700">+1.500</h3>
                   <p className="block text-lg py-3">
-                    Con nuestro stock buscamos siempre ofrecer productos de la más alta calidad a nuestros clientes, nos  actualizamos con las tendencias del mercado para ofrecer productos innovadores y únicos que ayuden a diferenciar nuestra oferta en el mercado
+                    Con nuestro stock, buscamos siempre estar actualizados con las tendencias del mercado para ofrecer productos innovadores ademas de únicos y de la mejor calidad con el mejor precio, para así diferenciar nuestra oferta en el mercado.
                   </p>
                 </div>          
               </div>
@@ -100,7 +100,7 @@ export default function Nosotros() {
               <div className="block mt-10 lg:-mt-20 mb-3 lg:mb-10 bg-green-400 lg:shadow-2xl lg:w-1/2 lg:mx-auto rounded-xl bg-cover aspect-[16/9] bg-[url('https://i.postimg.cc/QtC7YPFD/local-ym2group.jpg')]"></div>
               <div className="block mb-10">
                 <p className="text-center">
-                  Papeleria YM2 group c.a.
+                  Papelería YM2 group c.a.
                 </p>
               </div>
             </div> 
@@ -116,13 +116,13 @@ export default function Nosotros() {
                 Misión
                 </h4>
                 <p className="text-center text-lg">
-                proveer a nuestros clientes con una amplia variedad de productos de calidad para satisfacer sus necesidades de papelería y oficina. Además, nos enfocamos en ofrecer un excelente servicio al cliente, facilitando la compra y brindando opciones personalizadas a sus clientes. La papelería también puede comprometerse a ser una tienda confiable y conveniente para estudiantes, empresas y particulares.
+                Ofrecer al mercado local y nacional, una amplia variedad de productos de papelería, artículos de oficina y útiles escolares, facilitando el proceso de compra, con opciones adecuadas a la necesidad de cada cliente, para así prestar un excelente servicio.
                 </p>
                 <h4 className="mt-10 mb-10 text-2x lg:text-3xl text-center font-semibold">
                 Visión
                 </h4>
                 <p className="text-center text-lg">
-                Ser una tienda líder en suministros de oficina y papelería en su localidad, innovando en productos y servicios para diferenciarse de la competencia. También puede tener la intención de ser una tienda comprometida con el medio ambiente, ofreciendo productos sostenibles y fomentando el reciclaje entre sus clientes. Finalmente, la papelería puede querer ser una empresa socialmente responsable, contribuyendo al desarrollo de su comunidad y apoyando a organizaciones sin fines de lucro.
+                Ser líder en distribución y venta al mayor y detal, tanto local como nacional, de los rubros de papelería, artículos de oficina y útiles escolares.
                 </p>
                 <h4 className="mt-10 mb-10 text-2x lg:text-3xl text-center font-semibold">
                 Valores

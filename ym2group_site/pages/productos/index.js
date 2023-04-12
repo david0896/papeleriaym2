@@ -42,9 +42,6 @@ let dataAcordion1 = [
     id: 11,
     subcategoria: "CHINCHES"
   },{
-    id: 12,
-    subcategoria: "ESCARCHA"
-  },{
     id: 13,
     subcategoria: "PALETAS Y TIZAS"
   },{

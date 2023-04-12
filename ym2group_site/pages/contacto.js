@@ -12,7 +12,7 @@ export default function Contacto() {
   return (
     <Layout 
         title={'| Nosotros'}
-        description={'Sobre nosotros, venta de articulos de papeleria'}
+        description={'Sobre nosotros, venta de articulos de papelería'}
     >        
         <HeaderParallaxBanner
           titulo={'Contacto'}

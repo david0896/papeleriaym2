@@ -48,7 +48,7 @@ export default function Home() {
     <>
       <Layout
         title={'| Inicio'}
-        description={'Venta de articulos de papeleria'}
+        description={'Venta de articulos de papelería'}
       >
         {/*carousel*/}
         <CarouselNext/> 
@@ -129,6 +129,7 @@ export default function Home() {
               name="searchProduct"
             />
             <button type="button" className="border-2 border-blue-700 bg-blue-700 hover:opacity-90 rounded-r-3xl p-1 px-7 text-white">Enviar</button>
+            <iframe width="540" height="305" src="https://faed66c7.sibforms.com/serve/MUIEAFzVLVaO_GgcH8YW6vMI2MTJoQSV68dSUnUMk-zKjc-CtglLKtZjIeU9weuTwZNzXV1grleHD_gOMOobKYzocjtHAo1J5jw_OqgytO8oH3-ySmBg_UlQ3_qoXQ6a-_IJfimQcYbNi5LnRbmL44gWE9qDtx39M990D3HzC3Q4etK8ulV6CM9aqbellOQH5qAz91fDBgzZX1cV" frameborder="0" scrolling="auto" allowfullscreen style={{display: 'block', 'margin-left': 'auto', 'margin-right': 'auto', 'max-width': '100%'}}></iframe>
           </div>
         </div>
 

@@ -101,7 +101,7 @@ export default function Navbar() {
                               >
                                 Artículos de Oficina
                                 <p className="text-gray-500 font-normal">
-                                  All in one editor
+                                  Mejora la productividad laboral  
                                 </p>
                               </Link>
                             </li>
@@ -117,7 +117,7 @@ export default function Navbar() {
                               >
                                 Útiles Escolares
                                 <p className="text-gray-500 font-normal">
-                                Accept payments
+                                Todo para el ambiente escolar
                                 </p>
                               </Link>
                             </li>
@@ -133,7 +133,7 @@ export default function Navbar() {
                               >
                                 Morales y Bolsos
                                 <p className="text-gray-500 font-normal">
-                                Close captioning
+                                Transporta con estilo y comodidad
                                 </p>
                               </Link>
                             </li>
@@ -149,7 +149,7 @@ export default function Navbar() {
                               >
                                 Cuentos y Juegos Didácticos
                                 <p className="text-gray-500 font-normal">
-                                Close captioning
+                                Aprende y diviértete
                                 </p>
                               </Link>
                             </li>
