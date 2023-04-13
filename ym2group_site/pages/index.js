@@ -120,10 +120,10 @@ export default function Home() {
           <div className="flex justify-center ">
             <h5 className="grid justify-items-center text-center text-lg text-blue-700">mantente informado sobre nuestros descuentos, mercancía nueva y mucho más...</h5>                
           </div>
-          <div className="p-2 h-16 flex justify-center relative">
-            <iframe width="540" height="240" src="https://faed66c7.sibforms.com/serve/MUIEADGSA8ZxParsfcOFASeNIJyEvRwZ7uUlAV-QZMpAI9hVcciMlbhIp2YDP4VdoRNHYqnxxJDESreDJe76JYQe_csVxmOenrNHsnA1cGFBdfLCpy47qo2gWqNKacuHhA3QiMbyExfYo41ZafC9LRka6ULOgFyFzW3qmlAwZAQIUNtFStrl-0xhH2xZP3185_o4q6nsdnSSWh4z" style={{'overflow-y': 'hidden'}}></iframe>
+          <div className="p-2 h-16 flex justify-center">
+            <iframe width="540" height="400" src="https://faed66c7.sibforms.com/serve/MUIEADGSA8ZxParsfcOFASeNIJyEvRwZ7uUlAV-QZMpAI9hVcciMlbhIp2YDP4VdoRNHYqnxxJDESreDJe76JYQe_csVxmOenrNHsnA1cGFBdfLCpy47qo2gWqNKacuHhA3QiMbyExfYo41ZafC9LRka6ULOgFyFzW3qmlAwZAQIUNtFStrl-0xhH2xZP3185_o4q6nsdnSSWh4z" scrolling="auto" style={{'overflow-y': 'hidden'}}></iframe>
           </div>
-          <div className="p-2 h-40 flex justify-center">
+          <div className="p-2 h-60 flex justify-center">
           </div>
         </div>
 
