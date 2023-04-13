@@ -48,7 +48,7 @@ const CarouselNext = () => {
               <SplideTrack>
                 { generateSlides.map( slide => ( 
                     <SplideSlide key={ slide.src }>
-                      <Image src={ slide.src } alt={ slide.alt } className='w-full' width={100} height={50}/>
+                      <Image src={ slide.src } alt={ slide.alt } className='w-full lg:h-[500px]' width={100} height={10}/>  
                     </SplideSlide>
                   ) ) 
                 } 
