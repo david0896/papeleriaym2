@@ -1,5 +1,5 @@
 const SENDINBLUE_API_KEY = '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';
-const MY_EMAIL_ADDRESS = 'davidvasquez0896@gmail.com';
+const MY_EMAIL_ADDRESS = 'ventas@ym2papeleria.com';
 const SibApiV3Sdk = require('sib-api-v3-sdk');
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
