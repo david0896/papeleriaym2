@@ -84,9 +84,6 @@ let dataAcordion1 = [
     id: 27,
     subcategoria: "PAPELERAS"
   },{
-    id: 28,
-    subcategoria: "BANDEJAS Y ORGANIZADORES"
-  },{
     id: 29,
     subcategoria: "BANDEJAS Y ORGANIZADORES"
   },{

@@ -57,7 +57,6 @@ export default function Contacto() {
                     </div>
                     <div className=" text-blue-700 underline text-center lg:text-left mt-3 ">
                         <p className="text-xs lg:text-lg text-center hover:text-blue-700/50"><Link href={"mailto:ventas@ym2papeleria.com"}>ventas@ym2papeleria.com</Link></p>
-                        <p className="text-xs lg:text-lg text-center hover:text-blue-700/50"><Link href={"mailto:info@ym2papeleria.com"}>info@ym2papeleria.com</Link></p>
                         <p className="text-xs lg:text-lg text-center hover:text-blue-700/50"><Link href={"mailto:soporte@ym2papeleria.com"}>soporte@ym2papeleria.com</Link></p>
                     </div>
                 </div>
