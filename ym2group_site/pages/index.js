@@ -13,6 +13,10 @@ const InstagramEmbedded = dynamic(() => import('@/components/instagramEmbedded')
   ssr: false,
 });
 
+const FormularioDeSubscripcion = dynamic(() => import('@/components/formularioDeSubscripcion'), {
+  ssr: false,
+});
+
 let arrCategoriasProductos = [
   {
       id: 1,
@@ -121,7 +125,7 @@ export default function Home() {
             <h5 className="grid justify-items-center text-center text-lg text-blue-700">mantente informado sobre nuestros descuentos, mercancía nueva y mucho más...</h5>                
           </div>
           <div className="p-2 h-16 flex justify-center">
-            <iframe width="540" height="400" src="https://faed66c7.sibforms.com/serve/MUIEADGSA8ZxParsfcOFASeNIJyEvRwZ7uUlAV-QZMpAI9hVcciMlbhIp2YDP4VdoRNHYqnxxJDESreDJe76JYQe_csVxmOenrNHsnA1cGFBdfLCpy47qo2gWqNKacuHhA3QiMbyExfYo41ZafC9LRka6ULOgFyFzW3qmlAwZAQIUNtFStrl-0xhH2xZP3185_o4q6nsdnSSWh4z" scrolling="auto" style={{'overflow-y': 'hidden'}}></iframe>
+            <FormularioDeSubscripcion/>
           </div>
           <div className="p-2 h-60 flex justify-center">
           </div>
