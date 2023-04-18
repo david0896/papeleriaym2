@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
-import { getEnv } from 'vercel';
+//import { getEnv } from 'vercel';
 
 dotenv.config();
 
@@ -12,8 +12,8 @@ export default async function (req, res) {
         port: 465,
         secure: true,
         auth: {
-            user: getEnv('EMAIL_ADDRESS'), //process.env.EMAIL_ADDRESS,
-            pass: getEnv('EMAIL_PASSWORD'),//process.env.EMAIL_PASSWORD,
+            user: 'ventas@ym2papeleria.com',//getEnv('EMAIL_ADDRESS'), //process.env.EMAIL_ADDRESS,
+            pass: 'W;{x3NpN:KFl?M<',//getEnv('EMAIL_PASSWORD'),//process.env.EMAIL_PASSWORD,
         },
     });
 
