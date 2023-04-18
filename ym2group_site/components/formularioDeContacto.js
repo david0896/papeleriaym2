@@ -18,7 +18,7 @@ export default function FormularioDeContacto() {
         setError(null);
         try {
             console.log(`${nombre} ${correo} ${mensaje}`)
-            await axios.post('/api/sendEmail', {
+            await axios.post('/api/sendNodeMailer', {
                 nombre,
                 correo,
                 mensaje
