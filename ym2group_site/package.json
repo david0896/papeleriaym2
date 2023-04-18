@@ -22,7 +22,8 @@
     "react-leaflet": "^4.2.1",
     "react-scroll-parallax": "^3.3.2",
     "sib-api-v3-sdk": "^8.5.0",
-    "tw-elements": "^1.0.0-beta1"
+    "tw-elements": "^1.0.0-beta1",
+    "vercel": "^28.18.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
