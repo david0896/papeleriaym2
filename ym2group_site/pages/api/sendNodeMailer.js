@@ -25,7 +25,7 @@ export default async function (req, res) {
 
     }).then(function(data) {
         console.log('API sendTransacEmail call successful. Email ID: ' + data.messageId);
-        res.status(200).send('Mensaje enviado');
+        res.status(200).send('Mensaje enviado satisfactoriamente');
       }, function(error) {
         console.error(error);
         res.status(400).send(error);
