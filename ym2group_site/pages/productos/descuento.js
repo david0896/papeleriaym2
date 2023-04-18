@@ -154,8 +154,8 @@ export default function Index() {
 
     return (
         <Layout 
-        title={'| Productos'}
-        description={'Te ofrecemos productos de calidad'} 
+        title={'| Productos con descuentos'}
+        description={'Obten los mejores descuentos del mercado'} 
         >        
             <HeaderParallaxBanner
                 titulo={'Descuentos'} 
