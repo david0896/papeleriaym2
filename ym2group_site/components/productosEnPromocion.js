@@ -4,38 +4,12 @@ import Link from "next/link"
 import ProductoPromocionado from "./productoPromocionado";
 
 let arrProductosEnPromocion = [
-    {
-        id: 1,
-        imagen: '/img/descuentomarcadorpizarrablanca.svg',
-        titulo: 'Marcador pizarra rojo punta fina Ofiart',
-        precioAnterior: 7.90,
-        precioNuevo: 5.50,
-        url: 'https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20informacion%20sobre%20Marcador%20pizarra%20rojo%20punta%20fina%20Ofiart%20https://ibb.co/Dw6KhMC',
-        flagOfertaLimitada: true,
-        btnVermas: true
-    },
-    {
-        id: 2,
-        imagen: '/img/descuentobandejatresniveles.svg',
-        titulo: 'Bandeja de 3 niveles color plata',
-        precioAnterior: 23,
-        precioNuevo: 16.10,
-        url: 'https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20informacion%20sobre%20bandeja%20tres%20niveles%20color%20plata%20https://ibb.co/8mBHSGx',
-        flagOfertaLimitada: true,
-        btnVermas: true
-
-    },
-    {
-        id: 3,
-        imagen: '/img/descuentoColoresAcuarelables.svg',
-        titulo: 'Colores acuarelables x12 + pincel Kores',
-        precioAnterior: 8.50,
-        precioNuevo: 5.95,
-        url: 'https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20informacion%20sobre%20Colores%20acuarelables%20x12%20mas%20pincel%20Kores%20https://ibb.co/xG68mDH',
-        flagOfertaLimitada: true, 
-        btnVermas: true
-
-    },
+    {"id":"35","imagen":"https://i.postimg.cc/0jgfQpzs/098679-ESTUCHE-TRIANGULAR-SAFARI-EXODUS-A19-Photo-Room-png-Photo-Room.png","titulo":"estuche triangular safari exodus a19","precioAnterior":"8","precioNuevo":"6.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20estuche%20triangular%20safari%20exodus%20a19%20https://ibb.co/8smQ7v1",flagOfertaLimitada:true, btnVermas: true}
+    ,    
+    {"id":"29","imagen":"https://i.postimg.cc/htQgHdkB/1035061-MORRAL-CAVA-KAVAK-Photo-Room-png-Photo-Room.png","titulo":"cava morral kavak relax","precioAnterior":"63","precioNuevo":"56.7","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20cava%20morral%20kavak%20relax%20https://ibb.co/drM7DDQ",flagOfertaLimitada:true, btnVermas: true}
+    ,
+    {"id":"4","imagen":"https://i.postimg.cc/PqG0g8MB/098677-BOLSO-SPORT-SAFARI-EXODUS-A1918-Photo-Room-png-Photo-Room.png","titulo":"bolso sport safari exodus a1918","precioAnterior":"28","precioNuevo":"23.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20bolso%20sport%20safari%20exodus%20a1918%20https://ibb.co/0MMCMNb",flagOfertaLimitada:true, btnVermas: true}
+    ,
 ];
 
 export default function ProductosEnPromocion({productosDestacados}) {

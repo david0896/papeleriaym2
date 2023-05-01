@@ -16,24 +16,19 @@ const options  = {
 const generateSlides = [
   {
     src:
-      '/img/bannerarticulosdeoficina.svg',
-    alt: 'Carousel Image 1',
+      '/img/banner_2_promo_dia_del_trabajador.svg',
+    alt: 'banner feliz día del trabajador',
   },
   {
     src:
-      '/img/bannerarticulosescolares.svg',
-    alt: 'Carousel Image 2',
+      '/img/banner_1_promo_dia_de_las_madres.svg',
+    alt: 'banner promo día de las madres',
   },
   {
     src:
-      '/img/bannerpromoinauguracionweb.svg',
-    alt: 'Carousel Image 3',
-  },
-  {
-    src:
-      '/img/bannerjuegosdidacticos.svg',
-    alt: 'Carousel Image 4',
-  },
+      '/img/banner_3_feliz_dia_de_las_madres.svg',
+    alt: 'banner feliz día de las madres',
+  }, 
 ];
 
 const CarouselNext = () => {
