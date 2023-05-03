@@ -24,11 +24,11 @@ const generateSlides = [
       '/img/banner_1_promo_dia_de_las_madres.svg',
     alt: 'banner promo día de las madres',
   },
-  {
+  /* {
     src:
       '/img/banner_3_feliz_dia_de_las_madres.svg',
     alt: 'banner feliz día de las madres',
-  }, 
+  },  */
 ];
 
 const CarouselNext = () => {
