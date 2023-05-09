@@ -16,13 +16,18 @@ const options  = {
 const generateSlides = [
   {
     src:
-      '/img/banner_2_promo_dia_del_trabajador.svg',
-    alt: 'banner feliz día del trabajador',
+      '/img/banner_1_promo_dia_de_las_madres.svg',
+    alt: 'banner promo día de las madres',
   },
   {
     src:
-      '/img/banner_1_promo_dia_de_las_madres.svg',
-    alt: 'banner promo día de las madres',
+      '/img/banner_4_promo_bolsos.svg',
+    alt: 'banner promoción de bolsos originales',
+  },
+  {
+    src:
+      '/img/banner_5_pinturas_acrilicas.svg',
+    alt: 'banner pinturas acrilicas',
   },
   /* {
     src:
