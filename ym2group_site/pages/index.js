@@ -57,7 +57,9 @@ export default function Home() {
         {/*carousel*/}
         <CarouselNext/> 
         {/*section 1 productos en promoción*/}
-        <ProductosEnPromocion/> 
+        <div className=" lg:container lg:mx-auto">
+          <ProductosEnPromocion/> 
+        </div>
         {/*divisor 1*/}
         <div className={styles.triangle}></div>
         {/*section 1 categorias de productos*/}

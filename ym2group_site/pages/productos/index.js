@@ -294,7 +294,9 @@ export default function Index() {
             <HeaderParallaxBanner
                 titulo={'Productos'} 
             />
-            <ProductosEnPromocion/>
+            <div className=" lg:container lg:mx-auto">
+              <ProductosEnPromocion/>
+            </div>
             <div className="lg:container lg:mx-auto lg:px-10 mb-20">
                 <div id="accordionExample">
                   <div className="rounded-t-lg border border-neutral-200 bg-white">

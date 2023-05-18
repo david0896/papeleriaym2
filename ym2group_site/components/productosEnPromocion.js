@@ -32,9 +32,9 @@ export default function ProductosEnPromocion({productosDestacados}) {
                         <h2 className="grid justify-items-center text-2xl">Por tiempo<strong className=" font-medium text-4xl block grid justify-items-center">¡Limitado!</strong></h2>                
                     </div>
                     <div className="mx-auto py-5 text-blue-700 text-center">
-                        <h2 className="lg:block grid justify-items-center text-3xl">Obtén hasta <strong className=" font-bold text-4xl text-orange-500">40%</strong> de descuento en productos seleccionados </h2>              
+                        <h2 className="lg:block grid justify-items-center text-3xl">Obtén hasta <strong className=" font-bold text-4xl text-orange-500">33%</strong> de descuento en productos seleccionados </h2>              
                         <h3 className="block grid justify-items-center text-1xl mt-3 lg:mt-0 text-center">Por la compra desde nuestro sitio web</h3> 
-                        <h3 className="block grid justify-items-center text-1xl mt-3 lg:mt-0 text-center"> - válido hasta el 30 de abril - </h3> 
+                        {/* <h3 className="block grid justify-items-center text-1xl mt-3 lg:mt-0 text-center"> - válido hasta el 30 de abril - </h3>  */}
                     </div>
                     <div className="mx-auto py-5 flex justify-center lg:block">
                         <strong className="text-lg rounded-3xl lg:mt-3 text-white bg-blue-700 px-4 py-2">¡Pídelo ahora!</strong>                
