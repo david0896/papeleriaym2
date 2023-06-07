@@ -2,6 +2,7 @@ import React from 'react';
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
+import HeaderParallaxBanner from "@/components/headerParallaxBanner";
 
 const options  = {
   autoplay     : true,
@@ -15,25 +16,36 @@ const options  = {
 
 const generateSlides = [
   {
-    src:
-      '/img/banner_1_promo_dia_de_las_madres.svg',
-    alt: 'banner promo día de las madres',
+    key: 1,
+    titulo:'Financiamos la lista escolar',
+    subtitulo:'Para tus colaboradores',
+    bg:'/img/bgDown.png',
+    fg:'/img/bgUp.png',
   },
   {
-    src:
-      '/img/banner_4_promo_bolsos.svg',
-    alt: 'banner promoción de bolsos originales',
+    key: 2,
+    titulo: 'Adquiere tu lista escolar',
+    subtitulo:'¡y paga en cuotas!',
+    bg:'/img/bgDownbanner2.png',
+    fg:'/img/bgDownbanner2Up.png',
+
   },
   {
-    src:
-      '/img/banner_5_pinturas_acrilicas.svg',
-    alt: 'banner pinturas acrilicas',
+    key: 3,
+    titulo: 'En nuestro mes aniversario',
+    subtitulo:'obtén súper ofertas',
+    bg:'/img/bgDownbanner3.png',
+    fg:'/img/bgDownbanner3Up.png',
+    
   },
-  /* {
-    src:
-      '/img/banner_3_feliz_dia_de_las_madres.svg',
-    alt: 'banner feliz día de las madres',
-  },  */
+  {
+    key: 4,
+    titulo: 'Promoción en bolsos',
+    subtitulo:'para consentir a papá',
+    bg:'/img/bgDownbanner4.png',
+    fg:'/img/bgDownbanner4Up.png',
+    
+  },
 ];
 
 const CarouselNext = () => {
@@ -47,8 +59,15 @@ const CarouselNext = () => {
             <div style={ { position: 'relative' } }>
               <SplideTrack>
                 { generateSlides.map( slide => ( 
-                    <SplideSlide key={ slide.src }>
-                      <Image src={ slide.src } alt={ slide.alt } className='w-full lg:h-[500px]' width={100} height={10}/>  
+                    <SplideSlide key={ slide.key }>
+                      {/* <Image src={ slide.src } alt={ slide.alt } className='w-full lg:h-[500px]' width={100} height={10}/>   */}
+                      <HeaderParallaxBanner 
+                        key={slide.key}
+                        titulo={slide.titulo}
+                        subtitulo={slide.subtitulo}
+                        imgBackGround={slide.bg}
+                        imgForeGround={slide.fg}
+                      />
                     </SplideSlide>
                   ) ) 
                 } 
