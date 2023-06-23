@@ -23,7 +23,7 @@ const generateSlides = [
     subtitulo:'Para tus colaboradores',
     bg:'/img/bannerPromocional1.svg',
   },
-  /* {
+  {
     key: 1,
     titulo: 'Adquiere tu lista escolar',
     subtitulo:'¡y paga en cuotas!',
@@ -31,6 +31,7 @@ const generateSlides = [
     fg:'/img/fgCarrusel2.webp',
 
   },
+  /* 
   {
     key: 2,
     titulo: 'En nuestro mes aniversario',
@@ -64,7 +65,7 @@ const CarouselNext = () => {
             aria-labelledby="autoplay-example-heading"
             hasTrack={ false }
             onMove={handleSlideChange}
-          >''
+          >
             <div style={ { position: 'relative' } }>
               <SplideTrack>
                 { generateSlides.map( slide => (
