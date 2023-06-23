@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useInView } from "react-intersection-observer";
 import Layout from "@/components/layout"
 import Link from "next/link"
 import Image from "next/image";
@@ -8,6 +9,7 @@ import CarrouselInfinitoMarcas from "@/components/carrouselInfinitoMarcas";
 import ProductosEnPromocion from "@/components/productosEnPromocion";
 import dynamic from 'next/dynamic';
 import CarouselNext from "@/components/carrouselNext";
+import { motion } from "framer-motion";
 
 const InstagramEmbedded = dynamic(() => import('@/components/instagramEmbedded'), {
   ssr: false,
@@ -45,8 +47,29 @@ let arrCategoriasProductos = [
 ];
 
 export default function Home() {
-
+  const { ref, inView } = useInView();
   const [categorias, setCategorias] = useState(arrCategoriasProductos);
+
+  const motionContainer = {
+    hidden: {opacity: 0},
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5
+      }
+    },
+  }
+
+  const motionItem = {
+    hidden: {
+      opacity: 0, 
+      scale: 0
+    },
+    show: {
+      opacity: 1,
+      scale: 0
+    },
+  }
 
   return (
     <>
@@ -64,9 +87,22 @@ export default function Home() {
         <div className={styles.triangle}></div>
         {/*section 1 categorias de productos*/}
         <div className=" bg-blue-700 py-28">
-          <div className="flex justify-center">
-            <h2 className="grid justify-items-center text-2xl text-white lg:flex">El mundo en <span className=" font-bold block lg:ml-2 grid justify-items-center">categorías</span></h2>                
-          </div>
+          <motion.div 
+            className="flex justify-center"
+          >
+            <motion.h2 
+              ref={ref}
+              initial={{opacity:0,x:-150}}
+              animate={inView ? {opacity:1,x:0} : {opacity:0,x:-150}}
+              transition={{duration:5}}
+              className="grid justify-items-center text-2xl text-white lg:flex"
+            >
+              El mundo en 
+              <span className=" font-bold block lg:ml-2 grid justify-items-center">
+                categorías
+              </span>
+            </motion.h2>                
+          </motion.div>
           <div className='flex flex-col lg:flex-row justify-center lg:container lg:mx-auto'>
             {   
               categorias.map(categoria =>(

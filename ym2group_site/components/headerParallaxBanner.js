@@ -1,10 +1,10 @@
 import { ParallaxBanner } from "react-scroll-parallax"; 
 import Image from "next/image";
 
-const HeaderParallaxBanner = ({titulo = '', subtitulo = '', imgBackGround = '/img/BG-background.jpg', imgForeGround = '/img/BG-foreground.png'}) => {
+const HeaderParallaxBanner = ({titulo = '', subtitulo = '', imgBackGround = '/img/bgBannerPaginas.avif', imgForeGround = '/img/fgBannerPaginas.avif'}) => {
     const background = {
       //image:bgDown,
-      children: <img src={imgBackGround} alt="banner background promocional" className="w-full aspect-[2/3] lg:aspect-[1/1] xl:aspect-[20/9]"/>,
+      children: <Image src={imgBackGround} width={100} height={50} priority alt="banner background promocional" className="w-full aspect-[2/3] lg:aspect-[1/1] xl:aspect-[16/9]"/>,
         // 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg',
       translateY: [0, 50],
       opacity: [1, 0.3],
@@ -36,15 +36,15 @@ const HeaderParallaxBanner = ({titulo = '', subtitulo = '', imgBackGround = '/im
       ),
     };
   
-    const foreground = {
+    const foreground = subtitulo === '' ? {
       //image:bgUp,
       //   // 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-foreground.png',
-      children: <img src={imgForeGround} alt="banner promocional" className="w-full aspect-[4/2] lg:aspect-[5/2] xl:aspect-[7/2]"/>,
+      children: <Image src={imgForeGround} width={100} height={50} priority alt="banner promocional" className="w-full aspect-[4/2] lg:aspect-[5/2] xl:aspect-[7/2]"/>,
       translateY: [0, 15],
       scale: [1, 1.80, 'easeOutCubic'],
       shouldAlwaysCompleteAnimation: true,
       expanded: false,
-    };
+    } : '';
   
     const gradientOverlay = {
       opacity: [0, 0.9],
