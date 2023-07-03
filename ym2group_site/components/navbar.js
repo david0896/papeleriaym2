@@ -197,6 +197,16 @@ export default function Navbar() {
                   className="block font-medium items-center leading-snug py-2 px-3 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700"
                   data-te-ripple-init
                   data-te-ripple-color="light"
+                  href="https://blog.ym2papeleria.com"
+                >
+                  <span>Blog</span>
+                </Link>
+              </li>
+              <li className="">
+                <Link
+                  className="block font-medium items-center leading-snug py-2 px-3 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
                   href="/contacto"
                 >
                   <span>Contacto</span>

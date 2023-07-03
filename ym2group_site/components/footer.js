@@ -34,6 +34,14 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
+                        <div>
+                            <h2 className="mb-6 text-sm font-semibold text-white uppercase ">Entretenimiento</h2>
+                            <ul className="text-white">
+                                <li className="mb-4">
+                                    <Link href="https://blog.ym2papeleria.com" className="hover:underline">Blog</Link>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto " />

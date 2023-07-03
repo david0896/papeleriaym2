@@ -69,11 +69,7 @@ let arrProductosEnPromocion =
     {"id":"32","imagen":"https://i.postimg.cc/N0vqCZbH/DISPENSADOR-DE-CINTA-PLASTICA-OFIMAK.png","titulo":"dispensador de cinta plastica peq 3/4 (18mm)  negro","precioAnterior":"2.7","precioNuevo":"1.89","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20Dispensador%20de%20cinta%20pl�stica%20peq%20Ofimak%20https://ibb.co/MBYyvRY","flagOfertaLimitada":"false","btnVermas":"false"}
     ,
     {"id":"33","imagen":"https://i.postimg.cc/1t6M0nQK/098487-ESTUCHE-ORINOCO-ZEBRA-Photo-Room-png-Photo-Room.png","titulo":"estuche orinoco zebra","precioAnterior":"6","precioNuevo":"4.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20estuche%20orinoco%20zebra%20https://ibb.co/3TTPj08","flagOfertaLimitada":"false","btnVermas":"false"}
-    ,
-    {"id":"34","imagen":"https://i.postimg.cc/vTtsNKGc/098415-ESTUCHE-PROTECTOR-PARA-TABLET-EXODUS-NEGRO-Photo-Room-png-Photo-Room.png","titulo":"estuche protector para tablet exodus neg","precioAnterior":"10.44","precioNuevo":"8.352","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20estuche%20protector%20para%20tablet%20exodus%20neg%20https://ibb.co/Xx36cm8","flagOfertaLimitada":"false","btnVermas":"false"}
     ,    
-    {"id":"36","imagen":"https://i.postimg.cc/T1VV3fCc/Funda-Neopreno-con-Bolsillo-10-Exodus.jpg","titulo":"funda neopreno con bolsillo 10 exodus","precioAnterior":"9","precioNuevo":"8.1","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20funda%20neopreno%20con%20bolsillo%2010%20exodus%20https://ibb.co/G7jSmr7","flagOfertaLimitada":"false","btnVermas":"false"}
-    ,
     {"id":"37","imagen":"https://i.postimg.cc/7ZL8kTj6/MARCADOR-DETECTOR-DE-BILLETES-FALSOS-MARCA-OFIMAK.png","titulo":"marcador detector de billetes falsos(3 und)","precioAnterior":"3","precioNuevo":"2","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20Marcador%20detector%20de%20billetes%20falsos%20https://ibb.co/QvdVD9H","flagOfertaLimitada":"false","btnVermas":"false"}
     ,
     {"id":"38","imagen":"/img/descuentomarcadorpizarrablanca.svg","titulo":"marcador pizarra rojo punta fina ofiart","precioAnterior":"7.9","precioNuevo":"5.5","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20Marcador%20pizarra%20rojo%20punta%20fina%20Ofiart%20https://ibb.co/Dw6KhMC","flagOfertaLimitada":"false","btnVermas":"false"}
@@ -92,16 +88,21 @@ let arrProductosEnPromocion =
     ,
     {"id":"45","imagen":"https://i.postimg.cc/mkP93KCW/098645-SET-DE-ESTUCHES-EXODUS-ANIMAL-PRINT-Photo-Room-png-Photo-Room.png","titulo":"set de estuches exodus animal print","precioAnterior":"5","precioNuevo":"4","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20set%20de%20estuches%20exodus%20animal%20print%20https://ibb.co/zJmL73D","flagOfertaLimitada":"false","btnVermas":"false"}
     ,
-    {"id":"46","imagen":"https://i.postimg.cc/QtBJ8BC3/098644-SET-DE-ESTUCHES-EXODUS-ZEBRA-Photo-Room-png-Photo-Room.png","titulo":"set de estuches exodus zebra","precioAnterior":"5","precioNuevo":"4","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20informacion%20sobre%20set%20de%20estuches%20exodus%20zebra%20https://ibb.co/K5b6Jzd","flagOfertaLimitada":"false","btnVermas":"false"}
     
     ];
 
-let arrProductosEnPromocionSinVerMas = [
-    {"id":"35","imagen":"https://i.postimg.cc/0jgfQpzs/098679-ESTUCHE-TRIANGULAR-SAFARI-EXODUS-A19-Photo-Room-png-Photo-Room.png","titulo":"estuche triangular safari exodus a19","precioAnterior":"8","precioNuevo":"6.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20estuche%20triangular%20safari%20exodus%20a19%20https://ibb.co/8smQ7v1",flagOfertaLimitada:true, btnVermas: false}
+let arrProductosEnPromocionDestacados = [
+    {"id":"35","imagen":"https://i.postimg.cc/0jgfQpzs/098679-ESTUCHE-TRIANGULAR-SAFARI-EXODUS-A19-Photo-Room-png-Photo-Room.png","titulo":"estuche triangular safari exodus a19","precioAnterior":"8","precioNuevo":"6.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20estuche%20triangular%20safari%20exodus%20a19%20https://ibb.co/8smQ7v1",flagOfertaLimitada:false, btnVermas: true}
     ,    
-    {"id":"29","imagen":"https://i.postimg.cc/htQgHdkB/1035061-MORRAL-CAVA-KAVAK-Photo-Room-png-Photo-Room.png","titulo":"cava morral kavak relax","precioAnterior":"63","precioNuevo":"56.7","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20cava%20morral%20kavak%20relax%20https://ibb.co/drM7DDQ",flagOfertaLimitada:true, btnVermas: false}
+    {"id":"29","imagen":"https://i.postimg.cc/htQgHdkB/1035061-MORRAL-CAVA-KAVAK-Photo-Room-png-Photo-Room.png","titulo":"cava morral kavak relax","precioAnterior":"63","precioNuevo":"56.7","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20cava%20morral%20kavak%20relax%20https://ibb.co/drM7DDQ",flagOfertaLimitada:true, btnVermas: true}
     ,
-    {"id":"4","imagen":"https://i.postimg.cc/PqG0g8MB/098677-BOLSO-SPORT-SAFARI-EXODUS-A1918-Photo-Room-png-Photo-Room.png","titulo":"bolso sport safari exodus a1918","precioAnterior":"28","precioNuevo":"23.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20bolso%20sport%20safari%20exodus%20a1918%20https://ibb.co/0MMCMNb",flagOfertaLimitada:true, btnVermas: false}
+    {"id":"4","imagen":"https://i.postimg.cc/PqG0g8MB/098677-BOLSO-SPORT-SAFARI-EXODUS-A1918-Photo-Room-png-Photo-Room.png","titulo":"bolso sport safari exodus a1918","precioAnterior":"28","precioNuevo":"23.8","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20bolso%20sport%20safari%20exodus%20a1918%20https://ibb.co/0MMCMNb",flagOfertaLimitada:false, btnVermas: true}
+    ,
+    {"id":"34","imagen":"https://i.postimg.cc/vTtsNKGc/098415-ESTUCHE-PROTECTOR-PARA-TABLET-EXODUS-NEGRO-Photo-Room-png-Photo-Room.png","titulo":"estuche protector para tablet exodus neg","precioAnterior":"10.44","precioNuevo":"8.352","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20estuche%20protector%20para%20tablet%20exodus%20neg%20https://ibb.co/Xx36cm8",flagOfertaLimitada:true, btnVermas: true}
+    ,    
+    {"id":"36","imagen":"https://i.postimg.cc/T1VV3fCc/Funda-Neopreno-con-Bolsillo-10-Exodus.jpg","titulo":"funda neopreno con bolsillo 10 exodus","precioAnterior":"9","precioNuevo":"8.1","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papeler�a%20quisiera%20mas%20información%20sobre%20funda%20neopreno%20con%20bolsillo%2010%20exodus%20https://ibb.co/G7jSmr7",flagOfertaLimitada:false, btnVermas: true}
+    ,
+    {"id":"46","imagen":"https://i.postimg.cc/QtBJ8BC3/098644-SET-DE-ESTUCHES-EXODUS-ZEBRA-Photo-Room-png-Photo-Room.png","titulo":"set de estuches exodus zebra","precioAnterior":"5","precioNuevo":"4","url":"https://api.whatsapp.com/send/?phone=584122121462&text=Hola%20Ym2%20papelería%20quisiera%20mas%20información%20sobre%20set%20de%20estuches%20exodus%20zebra%20https://ibb.co/K5b6Jzd",flagOfertaLimitada:false, btnVermas: true}
     ,
 ];
 
@@ -117,13 +118,13 @@ export default function Index() {
             <HeaderParallaxBanner
                 titulo={'Descuentos'} 
             />
-            <div className=" lg:container lg:mx-auto">
+            <div className="w-9/12 mx-auto">
                 <ProductosEnPromocion
-                    productosDestacados={arrProductosEnPromocionSinVerMas}
+                    productosDestacados={arrProductosEnPromocionDestacados}
                 />
             </div>
 
-            <div className="mx-5 grid grid-cols-2 lg:grid-cols-4 gap-4 mb-14 mt-5 lg:mt-20">
+            <div className="w-9/12 mx-auto mx-5 grid grid-cols-2 lg:grid-cols-3 gap-4 mb-14 mt-5 lg:mt-20">
             {                  
                 productosEnPromocion.map(productoPromocionado =>(
                     <ProductoPromocionado

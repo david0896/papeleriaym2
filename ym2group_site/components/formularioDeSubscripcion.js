@@ -1,6 +1,9 @@
 
 export default function FormularioDeSubscripcion() {
     return (
-        <iframe width="540" height="400" src="https://faed66c7.sibforms.com/serve/MUIEADGSA8ZxParsfcOFASeNIJyEvRwZ7uUlAV-QZMpAI9hVcciMlbhIp2YDP4VdoRNHYqnxxJDESreDJe76JYQe_csVxmOenrNHsnA1cGFBdfLCpy47qo2gWqNKacuHhA3QiMbyExfYo41ZafC9LRka6ULOgFyFzW3qmlAwZAQIUNtFStrl-0xhH2xZP3185_o4q6nsdnSSWh4z" style={{'overflowY': 'hidden'}}></iframe>
+        <div>
+            <iframe data-skip-lazy="" src="https://ym2papeleria.ipzmarketing.com/f/azyPcUkJ3OY" frameBorder="0" scrolling="0" className="w-[23rem] lg:w-[30rem] h-[19rem] bg-white overflow-y-scroll overflow-x-scroll overflow-hidden ipz-iframe"></iframe>
+            <script data-cfasync="false" type="text/javascript" src="https://assets.ipzmarketing.com/assets/signup_form/iframe_v1.js"></script>
+        </div>
     )
 }

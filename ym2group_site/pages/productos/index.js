@@ -1,8 +1,6 @@
 import Layout from "@/components/layout"
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Image from "next/image";
-import Link from "next/link";
 import HeaderParallaxBanner from "@/components/headerParallaxBanner";
 import ProductosEnPromocion from "@/components/productosEnPromocion";
 import TablaSubCategoriasProductos from "@/components/tablaSubCategoriasProductos";
@@ -294,10 +292,10 @@ export default function Index() {
             <HeaderParallaxBanner
                 titulo={'Productos'} 
             />
-            <div className=" lg:container lg:mx-auto">
+            <div className="w-9/12 mx-auto">
               <ProductosEnPromocion/>
             </div>
-            <div className="lg:container lg:mx-auto lg:px-10 mb-20">
+            <div className="w-9/12 mx-auto lg:px-10 mb-20">
                 <div id="accordionExample">
                   <div className="rounded-t-lg border border-neutral-200 bg-white">
                     <h2 className="mb-0" id="headingOne">
