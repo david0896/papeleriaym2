@@ -18,7 +18,7 @@ export default function Contacto() {
         <HeaderParallaxBanner
           titulo={'Contacto'}
         />
-        <div className="container mx-auto mb-24">
+        <div className="lg:w-9/12 lg:mx-auto mb-24">
             <div className=" px-10 grid grid-flow-row-dense grid-cols-1 md:grid-cols-3 lg:space-x-5 space-y-5 lg:space-y-0 mt-20 lg:mt-24">
                 <div className="md:col-span-1 p-10 rounded-2xl border-2 border-gray-300">
                     <div className="flex items-center ">

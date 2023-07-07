@@ -118,13 +118,13 @@ export default function Index() {
             <HeaderParallaxBanner
                 titulo={'Descuentos'} 
             />
-            <div className="w-9/12 mx-auto">
+            <div className="lg:w-9/12 lg:mx-auto">
                 <ProductosEnPromocion
                     productosDestacados={arrProductosEnPromocionDestacados}
                 />
             </div>
 
-            <div className="w-9/12 mx-auto mx-5 grid grid-cols-2 lg:grid-cols-3 gap-4 mb-14 mt-5 lg:mt-20">
+            <div className="lg:w-9/12 lg:mx-auto mx-5 grid grid-cols-2 lg:grid-cols-3 gap-4 mb-14 mt-5 lg:mt-20">
             {                  
                 productosEnPromocion.map(productoPromocionado =>(
                     <ProductoPromocionado

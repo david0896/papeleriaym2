@@ -8,6 +8,7 @@ import CarrouselInfinitoMarcas from "@/components/carrouselInfinitoMarcas";
 import ProductosEnPromocion from "@/components/productosEnPromocion";
 import dynamic from 'next/dynamic';
 import CarouselNext from "@/components/carrouselNext";
+import PreviewBlog from "@/components/previewblog";
 import { motion } from "framer-motion";
 
 const InstagramEmbedded = dynamic(() => import('@/components/instagramEmbedded'), {
@@ -71,18 +72,18 @@ export default function Home() {
           </div>
           <h3 className="grid justify-items-center text-lg lg:text-2xl text-center text-blue-700">Descubre nuestras categorías más populares y destacadas</h3>
         </div>
-        <div className="relative z-10">
+        <div className="relative z-10 ">
           <Image
             priority 
-            src='https://i.postimg.cc/CxPRXXLc/bannner-Space-Blue.jpg' 
+            src='https://i.postimg.cc/tJrk1n4Z/fondo-Azul-Schoolblue-Up.jpg' 
             className="
-              w-screen
+              lg:w-screen
               h-[70rem]
               lg:h-auto
               object-cover
             "
-            width={1080}
-            height={720}
+            width={3080}
+            height={1080}
             quality={100}
             alt="backgroud escolar"
           />
@@ -90,30 +91,30 @@ export default function Home() {
           <div className="w-9/12 mx-auto h-4/6 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
             <div className="grid lg:grid-rows-6 grid-cols-1 lg:grid-cols-3 h-full">
                 <div className="relative overflow-hidden row-span-4 m-1 rounded-2xl p-5 bg-orange-100 h-[12rem] lg:h-auto">
-                    <span className="mb-2 lg:mb-0 text-center lg:text-left text-2xl lg:text-lg font-semibold text-slate-800 block">Artículos de Oficina</span>
+                    <span className="mb-2 lg:mb-0 text-center lg:text-left text-xl lg:text-lg font-semibold text-slate-800 block">Artículos de Oficina</span>
                     <span className="text-base font-medium text-slate-600 hidden lg:block mb-5">Impulsa tu productividad: Equipa tu oficina con nuestros productos</span>
+                    <Image priority src="https://i.postimg.cc/SKhVLPYs/kmarker.png" alt="Artículos de Oficina" width={720} height={720} className="absolute bottom-0 right-0 w-[60%] -translate-x-[30%] translate-y-[25%] sm:translate-y-[55%] md:translate-y-[64%] lg:translate-x-5 lg:translate-y-20 rotate-90"/>
                     <Link href={{
                           pathname: '/productos',
                           query: {
                               bloque: 1,
                           },
                       }}  
-                      className="inline-block py-2 px-5 rounded-3xl text-base bg-orange-50 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
+                      className="w-[70%] lg:w-auto absolute bottom-4 left-[50%] -translate-x-[50%] lg:static py-2 px-5 rounded-3xl text-center lg:text-left text-base bg-orange-50 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
                     >Ver más</Link>                  
-                    <Image priority src="https://i.postimg.cc/SKhVLPYs/kmarker.png" alt="Artículos de Oficina" width={720} height={720} className="absolute bottom-0 right-0 w-[60%] translate-x-5 translate-y-20 rotate-90"/>
                 </div>
                 <div className="relative overflow-hidden row-span-3 m-1 rounded-2xl p-5 bg-orange-200 h-[12rem] lg:h-auto">
-                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-2xl lg:text-lg font-semibold text-slate-800 block">Morrales y Bolsos</span>
+                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-xl lg:text-lg font-semibold text-slate-800 block">Morrales y Bolsos</span>
                   <span className="text-base font-medium text-slate-600 hidden lg:block mb-5">Hecho con los materiales más duraderos y resistentes</span>
+                  <Image priority src="https://i.postimg.cc/sxCKD0P7/MORRAL-EXODUS.png" width={720} height={720} alt="morrales y bolsos" className="absolute bottom-0 right-0 w-[60%] lg:w-[50%] -translate-x-[30%] translate-y-[25%] sm:translate-y-[55%] md:translate-y-[64%] lg:-translate-x-2 lg:translate-y-20 -rotate-12"/>
                   <Link href={{
                         pathname: '/productos',
                         query: {
                             bloque: 3,
                         },
                     }} 
-                    className="inline-block py-2 px-5 rounded-3xl text-base bg-orange-100 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
+                    className="w-[70%] lg:w-auto absolute bottom-4 left-[50%] -translate-x-[50%] lg:static py-2 px-5 rounded-3xl text-center lg:text-left text-base bg-orange-50 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
                     >Ver más</Link>
-                  <Image priority src="https://i.postimg.cc/sxCKD0P7/MORRAL-EXODUS.png" width={720} height={720} alt="morrales y bolsos" className="absolute bottom-0 right-0 w-[60%] lg:w-[50%] -translate-x-2 translate-y-20 -rotate-12"/>
                 </div>
                 <div className="row-span-2 m-1 rounded-2xl p-5 bg-orange-500 hidden lg:flex justify-center items-center">
                   <span className="text-lg text-center font-medium text-white">
@@ -121,30 +122,30 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="relative overflow-hidden row-span-4 m-1 rounded-2xl p-5 bg-blue-100 h-[12rem] lg:h-auto">
-                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-2xl lg:text-lg font-semibold text-slate-800 block">Útiles Escolares</span>
+                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-xl lg:text-lg font-semibold text-slate-800 block">Útiles Escolares</span>
                   <span className="text-base font-medium text-slate-600 hidden lg:block mb-5">Diversidad en productos escolares, justo lo que necesitas</span>
+                  <Image priority src="https://i.postimg.cc/g08QmR8w/colores.png" alt="Útiles Escolares" width={720} height={720} className="absolute bottom-0 right-0 w-[100%] translate-x-[20%] translate-y-[45%] sm:translate-y-[65%] md:translate-x-[5%] md:translate-y-[82%] lg:translate-x-36 lg:translate-y-52 -rotate-[60deg] md:-rotate-[10deg] lg:-rotate-[60deg]"/>                
                   <Link href={{
                         pathname: '/productos',
                         query: {
                             bloque: 2,
                         },
                     }} 
-                    className="inline-block py-2 px-5 rounded-3xl bg-blue-50 text-base font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
+                    className="w-[70%] lg:w-auto absolute bottom-4 left-[50%] -translate-x-[50%] lg:static py-2 px-5 rounded-3xl text-center lg:text-left text-base bg-orange-50 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white"
                     >Ver más</Link>
-                  <Image priority src="https://i.postimg.cc/g08QmR8w/colores.png" alt="Útiles Escolares" width={720} height={720} className="absolute bottom-0 right-0 w-[100%] translate-x-36 translate-y-52 -rotate-[60deg]"/>                
                 </div>
                 <div className="relative overflow-hidden row-span-3 m-1 rounded-2xl p-5 bg-blue-200 h-[12rem] lg:h-auto">
-                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-2xl lg:text-lg font-semibold text-slate-800 block">Cuentos y Juegos Didácticos</span>
+                  <span className="mb-2 lg:mb-0 text-center lg:text-left text-xl lg:text-lg font-semibold text-slate-800 block">Cuentos y Juegos Didácticos</span>
                   <span className="text-base font-medium text-slate-600 hidden lg:block mb-5">Desarrolla habilidades de lectura y aprendizaje</span>
+                  <Image priority src="https://i.postimg.cc/MH3Wk4jb/didactico.png" alt="Cuentos y Juegos Didácticos" width={720} height={720} className="absolute bottom-0 right-0 w-[100%] lg:w-[60%] translate-y-[20%] sm:translate-y-[43%] md:translate-y-[50%] lg:translate-x-0 lg:translate-y-[-5%]"/>                
                   <Link href={{
                         pathname: '/productos',
                         query: {
                             bloque: 4,
                         },
                     }} 
-                    className="inline-block py-2 px-5 rounded-3xl bg-blue-100 text-base font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white "
+                    className="w-[70%] lg:w-auto absolute bottom-4 left-[50%] -translate-x-[50%] lg:static py-2 px-5 rounded-3xl text-center lg:text-left text-base bg-orange-50 font-medium border-[0.1rem] border-blue-700 hover:border-0 hover:bg-blue-700 transition-colors hover:text-white"
                     >Ver más</Link>
-                  <Image priority src="https://i.postimg.cc/MH3Wk4jb/didactico.png" alt="Cuentos y Juegos Didácticos" width={720} height={720} className="absolute bottom-0 right-0 w-[60%] "/>                
                 </div>
                 <div className="row-span-4 m-1 rounded-2xl p-5 bg-orange-500 hidden lg:flex justify-center items-center">
                   <span className=" text-lg text-center font-medium text-white"> 
@@ -154,8 +155,17 @@ export default function Home() {
             </div>
           </div>          
         </div>
+        {/*Blog section*/}
+        <div className="bg-white -mt-10 lg:mt-0 z-50 lg:z-0 py-10 h-[90rem] lg:h-[35rem] overflow-hidden relative">
+           <div className="hidden lg:block bg-gradient-to-br from-orange-300 via-orange-500 to-orange-600 rounded-3xl h-[30rem] w-9/12 ml-[50%]"></div>
+           <PreviewBlog/>
+        </div>
         {/*instagram section*/}
-        <div className="w-9/12 mx-auto grid grid-cols-1 -mt-10 lg:mt-10 mb-20 lg:mb-5">
+        <div className="w-9/12 mx-auto grid grid-cols-1 lg:mt-10 mb-20 lg:mb-5">
+          <div className="flex justify-center pt-5 mb-5 text-blue-700">
+            <h2 className="grid justify-items-center font-medium text-2xl lg:text-4xl lg:flex">Siguenos en <strong className=" font-semibold lg:ml-2 grid justify-items-center text-orange-500">Instagram</strong></h2>                
+          </div>
+          <h3 className="grid justify-items-center mb-10 text-lg lg:text-2xl text-center text-blue-700">Y mantente informado sobre nuestros descuentos, nueva mercancía y mucho más...</h3>
           <InstagramEmbedded/>
         </div>         
         {/*extracto nosotros 4*/} 

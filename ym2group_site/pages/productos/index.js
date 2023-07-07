@@ -292,10 +292,10 @@ export default function Index() {
             <HeaderParallaxBanner
                 titulo={'Productos'} 
             />
-            <div className="w-9/12 mx-auto">
+            <div className="lg:w-9/12 lg:mx-auto">
               <ProductosEnPromocion/>
             </div>
-            <div className="w-9/12 mx-auto lg:px-10 mb-20">
+            <div className="lg:w-9/12 lg:mx-auto lg:px-10 mb-20">
                 <div id="accordionExample">
                   <div className="rounded-t-lg border border-neutral-200 bg-white">
                     <h2 className="mb-0" id="headingOne">

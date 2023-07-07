@@ -28,7 +28,7 @@ export default function Nosotros() {
         <HeaderParallaxBanner
           titulo={'Nosotros'}
         />
-        <div className="container mx-auto">
+        <div className="lg:container lg:mx-auto">
           <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-4">
             <div className="md:col-span-2 p-10 lg:h600 grid content-center">
               <h2 className="block text-2xl lg:text-5xl font-bold py-3">
@@ -55,7 +55,7 @@ export default function Nosotros() {
         </div>
         <div className=" bg-orange-50 mt-28">
           <div className="bg-[url('/img/bgFormasGris.svg')] bg-cover mt-16 pt-16">
-            <div className="container mx-auto">
+            <div className="lg:container lg:mx-auto">
               <div className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-4"> 
                 <div className="md:col-span-2 p-10 grid content-center">
                   <h2 className="text-2xl lg:text-5xl font-semibold">

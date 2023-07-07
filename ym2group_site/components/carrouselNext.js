@@ -25,7 +25,7 @@ const generateSlides = [
   },
   {
     key: 1,
-    titulo: '¡No te pierdas esta oferta!',
+    titulo: '¡Oferta imperdible!',
     subtitulo:'Carpetas de fibra a un gran precio',
     bg:'https://i.postimg.cc/s2ctCwBj/OFERTAS-EN-CARPETAS.jpg',
   },
@@ -38,8 +38,8 @@ const generateSlides = [
   },
   {
     key: 3,
-    titulo: '¡No te quedes sin papel para imprimir!',
-    subtitulo:'Aquí tenemos suficiente stock',
+    titulo: '¡Sin papel para imprimir!',
+    subtitulo:'Pídelas ahora aquí',
     bg:'https://i.postimg.cc/QdrTRbGn/RESMAS-DE-PAPEL.jpg',
     
   }, 
