@@ -48,7 +48,7 @@ export default function ProductosEnPromocion({productosDestacados}) {
                         <span className="text-2xl rounded-3xl lg:mt-3 text-white bg-blue-700 px-4 py-2">¡Por tiempo limitado!</span>                
                     </div>
                 </div>
-                <div className="grid grid-cols-2 xl:grid-cols-3 gap-0 md:gap-3 m-5 md:mx-0 shadow-lg md:shadow-none ">
+                <div className="grid grid-cols-2 xl:grid-cols-3 gap-0 md:gap-3 m-5 md:mx-0 rounded-2xl shadow-lg md:shadow-none ">
                     <div className="col-span-2 md:col-span-3 flex place-content-between p-5 border-b-2 md:border-2 rounded-2xl border-slate-200">
                         <span className="text-xl font-semibold">Destacados</span>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">

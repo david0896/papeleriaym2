@@ -35,13 +35,13 @@ export default function PreviewBlog() {
                             </div>
                         </div>
                         <div className="col-span-1 w-full rounded-2xl lg:shadow-xl bg-white">
-                            <Image src="https://i.postimg.cc/Hs9xK1Vv/ni-os-Leyendo-Un-Libro.jpg" alt="imagen referencial de un post del blog" width={1080} height={720} quality={100} className="h-[10rem] object-cover rounded-t-2xl"/>
+                            <Image src="https://i.postimg.cc/SQ1KkZM6/como-realizar-inventario-de-articulos-de-oficina.jpg" alt="imagen referencial de un post del blog" width={1080} height={720} quality={100} className="h-[10rem] object-cover rounded-t-2xl"/>
                             <div className="bg-white p-4">
-                                <h3 className="mb-2 text-base font-semibold">Cuentos infantiles para mejorar la lectura de tus hijos</h3>
+                                <h3 className="mb-2 text-base font-semibold">Consejos para realizar un inventario de material de oficina</h3>
                                 <article className="mb-2 text-sm text-slate-900">
-                                ¿Sabías que los cuentos infantiles pueden ser una herramienta poderosa para ayudar a tus hijos a mejorar su lectura? 
-                                <br/><br/> Entérate cómo hacerlo en este artículo <br/>
-                                <Link className="text-orange-500 hover:text-slate-700 font-medium text-lg" href="https://blog.ym2papeleria.com/mejorar-la-lectura-con-cuentos-infantiles/">Leer más</Link>
+                                Como analista de compras, es importante tener un control detallado del material de oficina disponible en tu empresa. 
+                                <br/><br/> Te presentamos algunos consejos<br/>
+                                <Link className="text-orange-500 hover:text-slate-700 font-medium text-lg" href="https://blog.ym2papeleria.com/como-hacer-un-inventario-de-material-de-oficina/">Leer más</Link>
                                 </article>
                             </div>
                         </div>
