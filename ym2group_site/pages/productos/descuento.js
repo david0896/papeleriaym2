@@ -106,14 +106,14 @@ let arrProductosEnPromocionDestacados = [
     ,
 ];
 
-export default function Index() {
+export default function Descuento() {
 
     const [productosEnPromocion, setProductosEnPromocion] = useState(arrProductosEnPromocion);
 
     return (
         <Layout 
         title={'| Productos con descuentos'}
-        description={'Obten los mejores descuentos del mercado'} 
+        description={'Obtén los mejores descuentos del mercado'} 
         >        
             <HeaderParallaxBanner
                 titulo={'Descuentos'} 

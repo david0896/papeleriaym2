@@ -116,7 +116,7 @@ const CarouselNext = () => {
               <SplideTrack>
                 { generateSlides.map( slide => (
                     <SplideSlide key={ slide.key }> 
-                      <Image src={ slide.bg } alt={ slide.titulo } priority className={`w-screen h-[400px] object-cover ${alingImgViewPhone}`} width={720} height={450} quality={100}/>
+                      <Image src={ slide.bg } alt={ slide.titulo } priority className={`w-screen h-[400px] object-cover ${alingImgViewPhone}`} width={3840} height={2160} quality={90}/>
                       <motion.div 
                         initial={{opacity:0,y:-150}}                         
                         animate={
