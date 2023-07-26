@@ -10,6 +10,32 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin = {'true'}/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet"></link>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DTB6V5Z42N"></script>
+        <script
+          dangerouslySetInnerHTML={{
+              __html:`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+
+              gtag('consent', 'update', {
+                  'analytics_storage': 'granted'
+              });
+
+              gtag('js', new Date());
+
+              gtag('config', 'G-DTB6V5Z42N', {
+                  page_path: window.location.pathname,
+              });
+              `,
+          }}
+      />
+        {/* <script>
+          window.dataLayer = window.dataLayer || []; 
+          function gtag(){dataLayer.push(arguments)}  
+          gtag('js', new Date());
+
+          gtag('config', 'G-DTB6V5Z42N');
+        </script> */}
       </Head>
       <body className="font-monse">
         <Main />
