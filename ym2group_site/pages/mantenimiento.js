@@ -14,7 +14,7 @@ export default function Mantenimiento() {
           }}>  
             <div className="p-5 bg-white rounded-3xl w-[90%] md:w-[80%]  h-[70%] md:h-[90%] grid place-items-center relative">
                 <Image src="https://www.ym2papeleria.com/img/ym2gris.svg" className="w-[30%] lg:w-[10%] mb-5" alt="Logo de la papeleria ym2 group c.a." width={1920} height={1080} quality={100} priority/>
-                <h1 className="text-center text-2xl font-bold text-slate-700">Estamos mojorando tu experiencia</h1>
+                <h1 className="text-center text-2xl font-bold text-slate-700">Estamos mejorando tu experiencia</h1>
                 <h3 className="text-center text-base text-slate-500">Volveremos a estar en funcionamiento en breve <br/> Consulte nuestros canales sociales para obtener más actualizaciones</h3>
                 <Image src="https://i.postimg.cc/c46N7F6P/site-maintenance.png" className="w-[90%] lg:w-[40%]" alt="Pagina en mantenimiento" width={1920} height={1080} quality={100} priority/>
                 <span className="block md:absolute md:bottom-0 md:left-0 md:translate-x-5 md:-translate-y-5 text-orange-500 text-lg">@ym2groupca</span>
